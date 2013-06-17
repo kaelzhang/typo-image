@@ -1,0 +1,27 @@
+{
+  "name": "typo-image",
+  "version": "0.1.0",
+  "description": "ANSI image plugin for typo",
+  "main": "lib/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/typo-image.git"
+  },
+  "keywords": [
+    "typo",
+    "ansi",
+    "image",
+    "plugin"
+  ],
+  "dependencies": {
+    "color-diff": "~0.1.0"
+  },
+  "author": "kael",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/typo-image/issues"
+  }
+}
