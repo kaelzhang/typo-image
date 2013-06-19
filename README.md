@@ -52,7 +52,7 @@ And there are also bunch of options to help you manage your image:
 	);
 
 	
-You could see the demo located at `'demo/options.js'`:
+An available demo is located at `'demo/options.js'`:
 
 	git clone git@github.com:kaelzhang/typo-image.git
 	cd typo-image
@@ -62,6 +62,21 @@ You could see the demo located at `'demo/options.js'`:
 ## Available options
 
 (what's coming...)
-	
-	
-	
+
+#### width
+`Number`
+
+#### height
+`Number`
+
+#### indent
+`Number`
+
+#### pixel_size
+`Number`
+
+#### cache
+`Boolean`
+
+#### cache_output
+`Path`
