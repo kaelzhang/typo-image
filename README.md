@@ -48,7 +48,9 @@ An available demo is located at `'demo/typo-image.js'`:
 	git clone git@github.com:kaelzhang/typo-image.git
 	cd typo-image
 	npm install
-	node demo/options.js
+	node demo/typo-image.js
+	
+![screenshot](https://raw.github.com/kaelzhang/typo-image/master/demo/screenshot.png)
 	
 ## Available options
 
