@@ -7,16 +7,9 @@ The [typo](https://github.com/kaelzhang/typo) plugin to draw an image in command
 	npm install typo --save
 	npm install typo-image --save
 
-** By default, typo-image only supports 8-bit png(png-8) file **. 
+** Typo-image only supports 8-bit png(png-8) file so far. ** 
 
-If you wanna print other types of images, it requires [ImageMagick](http://www.imagemagick.org/script/index.php) CLI tools to be installed. There are numerous ways to install them. 
-
-For instance, if you're on OS X you can use Homebrew: 
-
-	brew install imagemagick
-
-If your don't have [ImageMagick](http://www.imagemagick.org/script/index.php) installed, please make sure you have the png file with the right file format.
-
+Maybe someday typo-image will support any image format using [ImageMagick](http://www.imagemagick.org). But I really doesn't have much spare time.
 	
 ## Usage
 	
@@ -33,9 +26,7 @@ And there are also bunch of options to help you manage your image:
 
 	typo.log('{{~image:options ./icon.png}}', {
 		options: {
-			indent: 4,
-			width: 32,
-			height: 32
+			indent: 4
 		}
 	});
 	
@@ -52,7 +43,7 @@ And there are also bunch of options to help you manage your image:
 	);
 
 	
-An available demo is located at `'demo/options.js'`:
+An available demo is located at `'demo/typo-image.js'`:
 
 	git clone git@github.com:kaelzhang/typo-image.git
 	cd typo-image
@@ -66,17 +57,29 @@ An available demo is located at `'demo/options.js'`:
 #### width
 `Number`
 
+no support so far
+
 #### height
 `Number`
+
+no support so far
 
 #### indent
 `Number`
 
+supported
+
 #### pixel_size
 `Number`
+
+supported
 
 #### cache
 `Boolean`
 
+supported
+
 #### cache_output
 `Path`
+
+supported
