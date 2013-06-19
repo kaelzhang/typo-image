@@ -10,6 +10,13 @@ The [typo](https://github.com/kaelzhang/typo) plugin to draw an image in command
 ** Typo-image only supports 8-bit png(png-8) file so far. ** 
 
 Maybe someday typo-image will support any image format using [ImageMagick](http://www.imagemagick.org). But I really doesn't have much spare time.
+
+## Demo
+An available demo is located at `'demo/typo-image.js'`:
+
+	node demo/typo-image.js
+
+![screenshot](https://raw.github.com/kaelzhang/typo-image/master/demo/screenshot.png)
 	
 ## Usage
 	
@@ -43,14 +50,7 @@ And there are also bunch of options to help you manage your image:
 	);
 
 	
-An available demo is located at `'demo/typo-image.js'`:
 
-	git clone git@github.com:kaelzhang/typo-image.git
-	cd typo-image
-	npm install
-	node demo/typo-image.js
-	
-![screenshot](https://raw.github.com/kaelzhang/typo-image/master/demo/screenshot.png)
 	
 ## Available options
 
