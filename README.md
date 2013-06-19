@@ -1,6 +1,6 @@
 # Typo-image
 
-The `typo` plugin to draw an image in command-line (CLI)!
+The [typo](https://github.com/kaelzhang/typo) plugin to draw an image in command-line (CLI)!
 
 ## Installation
 

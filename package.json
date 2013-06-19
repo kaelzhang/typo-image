@@ -18,7 +18,8 @@
   ],
   "dependencies": {
     "color-diff": "~0.1.0",
-    "pngjs": "~0.4.0"
+    "pngjs": "~0.4.0",
+    "typo": "~0.1.10"
   },
   "author": "kael",
   "license": "BSD",
