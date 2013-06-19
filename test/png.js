@@ -18,6 +18,6 @@ typo.log('{{~image:options img}}', {
     if(err){
     	console.log('typo image err:', err);
     }else{
-    	typo.log('success')
+    	typo.log('success');
     }
 });
