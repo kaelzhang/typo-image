@@ -9,7 +9,7 @@ typo.register( plugin_image );
 typo.log('{{~image:options img}}', {
 	options: {
 		indent: 10,
-		pixel_size: 1
+		pixel_size: 2
 	},
 
 	img: 'icon.png'
