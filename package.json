@@ -1,7 +1,7 @@
 {
   "name": "typo-image",
-  "version": "0.1.0",
-  "description": "ANSI image plugin for typo",
+  "version": "0.1.1",
+  "description": "ANSI image plugin for typo - draw images into command-line (CLI)!",
   "main": "lib/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,14 @@
     "typo",
     "ansi",
     "image",
-    "plugin"
+    "plugin",
+    "png",
+    "palette",
+    "draw",
+    "command-line",
+    "cli",
+    "picture",
+    "stdout"
   ],
   "dependencies": {
     "color-diff": "~0.1.0",
