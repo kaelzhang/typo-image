@@ -24,7 +24,7 @@ typo.log('{{~image:options img}}', {
 		cache_output: cache
 	},
 
-	img: node_path.join( __dirname, 'icon.png' )
+	img: node_path.join( __dirname, 'gj.png' )
 
 }, function(err, result) {
     if(err){
@@ -38,3 +38,4 @@ typo.log('{{~image:options img}}', {
     }
 
 });
+
