@@ -2,6 +2,8 @@
 
 The [typo](https://github.com/kaelzhang/typo) plugin to draw an image in command-line (CLI)!
 
+![screenshot](https://raw.github.com/kaelzhang/typo-image/master/demo/screenshot.png)
+
 ## Installation
 
 ```bash
@@ -19,8 +21,6 @@ An available demo is located at `'demo/typo-image.js'`:
 ```bash
 node demo/typo-image.js
 ```
-
-![screenshot](https://raw.github.com/kaelzhang/typo-image/master/demo/screenshot.png)
 	
 ## Usage
 	
