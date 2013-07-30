@@ -1,36 +1,40 @@
 {
-  "name": "typo-image",
-  "version": "0.1.1",
-  "description": "ANSI image plugin for typo - draw images into command-line (CLI)!",
-  "main": "lib/index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kaelzhang/typo-image.git"
-  },
-  "keywords": [
-    "typo",
-    "ansi",
-    "image",
-    "plugin",
-    "png",
-    "palette",
-    "draw",
-    "command-line",
-    "cli",
-    "picture",
-    "stdout"
-  ],
-  "dependencies": {
-    "color-diff": "~0.1.0",
-    "pngjs": "~0.4.0",
-    "typo": "~0.1.10"
-  },
-  "author": "kael",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/kaelzhang/typo-image/issues"
-  }
+    "name": "typo-image",
+    "version": "0.1.1",
+    "description": "ANSI image plugin for typo - draw images into command-line (CLI)!",
+    "main": "lib/index",
+    "bin": {
+        "typo-image": "bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kaelzhang/typo-image.git"
+    },
+    "keywords": [
+        "typo",
+        "ansi",
+        "image",
+        "plugin",
+        "png",
+        "palette",
+        "draw",
+        "command-line",
+        "cli",
+        "picture",
+        "stdout"
+    ],
+    "dependencies": {
+        "color-diff": "~0.1.0",
+        "pngjs": "~0.4.0",
+        "typo": "~0.1.10",
+        "comfort": "~0.1.6"
+    },
+    "author": "kael",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kaelzhang/typo-image/issues"
+    }
 }
