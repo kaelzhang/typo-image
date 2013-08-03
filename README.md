@@ -25,8 +25,10 @@ node demo/typo-image.js
 ## Usage
 	
 ```js
-var typo = require('typo');
-typo.register( require('typo-image') );
+var typo = require('typo')({
+	output: process.stdout
+});
+typo.plugin( require('typo-image') );
 
 // pay attension, this.is an async method 
 typo.log('{{~image ./icon.png}}');

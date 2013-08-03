@@ -1,20 +1,21 @@
 'use strict';
 
-var typo = require('typo');
+var typo = require('typo')({
+    output: process.stdout
+});
+
 var node_path = require('path');
 var fs = require('fs-sync');
 
-// var plugin_image = require('typo-image');
-var plugin_image = require('../lib/index');
-typo.register( plugin_image );
+typo.plugin( require('typo-image') );
 
 typo.log('{{bold TYPO-IMAGE demo:}}');
 
-var cache = node_path.join( __dirname, 'cache.typo' ) 
+var cache = node_path.join( __dirname, 'typo.cache' ) 
 
 fs.delete(cache);
 
-typo.log('removing cache file: "cache.typo"...\n');
+typo.log('removing cache file: "typo.cache"...\n');
 
 typo.log('{{~image:options img}}', {
 	options: {
@@ -24,7 +25,7 @@ typo.log('{{~image:options img}}', {
 		cache_output: cache
 	},
 
-	img: node_path.join( __dirname, 'gj.png' )
+	img: node_path.join( __dirname, 'icon.png' )
 
 }, function(err, result) {
     if(err){
