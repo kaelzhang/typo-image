@@ -32,7 +32,8 @@
   "dependencies": {
     "pngjs": "~0.4.0",
     "typo-rgb": "~0.1.0",
-    "comfort": "~0.1.6"
+    "comfort": "~0.1.6",
+    "fs-sync": "~0.1.7"
   },
   "devDependencies": {
     "typo": "~0.1.12"
