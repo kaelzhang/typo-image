@@ -13,7 +13,7 @@ typo.log('{{bold TYPO-IMAGE demo:}}');
 
 var cache = node_path.join( __dirname, 'typo.cache' ) 
 
-fs.delete(cache);
+fs.remove(cache);
 
 typo.log('removing cache file: "typo.cache"...\n');
 

@@ -1,7 +1,7 @@
 {
   "name": "typo-image",
-  "version": "0.1.2",
-  "description": "ANSI image plugin for typo - draw images into command-line (CLI)!",
+  "version": "0.1.3",
+  "description": "Typo-image is an ANSI image plugin for typo - draw images into command-line (CLI)!",
   "main": "index.js",
   "bin": {},
   "scripts": {
@@ -33,7 +33,7 @@
     "pngjs": "~0.4.0",
     "typo-rgb": "~0.1.0",
     "comfort": "~0.1.6",
-    "fs-sync": "~0.1.7"
+    "fs-sync": "~0.2.1"
   },
   "devDependencies": {
     "typo": "~0.1.12"
